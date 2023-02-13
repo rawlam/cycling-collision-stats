@@ -15,7 +15,7 @@ Our team is comprised of three upcoming data analysts who have worked in unifica
 ## Project Summary: Questions and Assumptions
 
 
-Our aim of this project was ascertain the following questions:
+Our aim of this project was ascertain the following questions and made the associated assumptions:
 1. What are the most common characteristics of cyclists involved in collisions?
 * Cyclists involved in collisions occurred at a higher rate in males between the ages of 20-30 years.
 
