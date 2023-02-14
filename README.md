@@ -52,8 +52,9 @@ Upon granted request, data was obtained through a valid API key from CycleStreet
 ## Summary and Key Insights
 
 
-The following is a summary of the data regarding fatal cycling collisions:
-**What does this tell us about the cyclists:**
+Overall, what does the data tell us:
+
+**Cyclists:**
 * Male cyclists are at a slightly increased risk
 * Cyclists aged 26-35 years are at an increased risk
 * Cyclists are likely commuters, who are part of the working class
@@ -81,6 +82,7 @@ The following are limitations within the dataset:
 
 
 How to make drivers and cyclists more aware?
+
 **Cyclists:**
 * Infrastructure: Cycling lanes with diviers
 * Education: Safer routes
