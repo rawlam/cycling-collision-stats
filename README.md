@@ -16,14 +16,14 @@ Our team is comprised of three upcoming data analysts who have worked in unifica
 
 
 Our aim of this project was ascertain the following questions and made the associated assumptions:
-1. What are the most common characteristics of cyclists involved in collisions?
-* Cyclists involved in collisions occurred at a higher rate in males between the ages of 20-30 years.
+1. What are the most common characteristics of cyclists involved in fatal collisions?
+    * Cyclists involved in collisions occurred at a higher rate in males between the ages of 20-30 years.
 
-2. What are the characteristics of other parties involved in cycling collisions?
-* Other parties involved in collisions occurred at a higher rate in females between the ages of 40-50 years. 
+2. What are the characteristics of other parties involved in fatal cycling collisions?
+    * Other parties involved in collisions occurred at a higher rate in females between the ages of 40-50 years. 
 
-3. What are external characteristics that influence cycling collisions?
-* External characteristics, such as night-time and wet-roads, increased the risk of cycling collisions. 
+3. What are external characteristics that influence fatal cycling collisions?
+    * External characteristics, such as night-time and wet-roads, increased the risk of cycling collisions. 
 
 
 
@@ -48,7 +48,23 @@ Upon granted request, data was obtained through a valid API key from CycleStreet
 * External Conditions: Speed limit, road type, weather condition, light condition, road surface condition
 
 
-**Conclusion:** Since the chi-square value of 36015.22 exceeds the critical value of 5.99, we conclude that the results are statistically significant. 
+
+## Summary and Key Insights
+
+
+The following is a summary of the data regarding fatal cycling collisions:
+**What does this tell us about the cyclists:**
+* Male cyclists are at a slightly increased risk
+* Cyclists aged 26-35 years are at an increased risk
+* Cyclists are likely commuters, who are part of the working class
+
+**Drivers:**
+* Majority of drivers involved in fatal cycling collisions are male
+* Drivers between the ages 36-55 years are more likely involved in fatal cyclist collisions
+* Female drivers might be more cautous than their male counterparts 
+
+**External Characteristics:**
+* Most fatalitis take place on a dry surface, in a single carriageway, with clear weather and ample daylight
 
 
 
@@ -56,17 +72,23 @@ Upon granted request, data was obtained through a valid API key from CycleStreet
 
 
 The following are limitations within the dataset:
-* Does not consider the gender spectrum
-* Bias of boundary selection for Central London
-* Potential inconsistencies of data reporting
-* Hit and run collisions
+* Selecting boundaries of Central London
+* Inconsistent data reporting, bias and human error
 
 
 
-## Next Steps
+## Next Steps: Application
 
 
-Next steps ...
+How to make drivers and cyclists more aware?
+**Cyclists:**
+* Infrastructure: Cycling lanes with diviers
+* Education: Safer routes
+
+**Drivers:**
+* Signage: Speed limit feedback signs, hazard signs
+* Education: PSAs targeted towards males between ages of 36 to 55 years. 
+
 
 
 
@@ -82,8 +104,17 @@ Many thanks go to the following:
 ## References 
 
 
-* The Collision data API provided information on collisions based on STATS19 data between the years 1999 and 2021 inclusive. The Collision report API provided data for a single collision location from the STATS19 data.
-    * Both above APIs are accessed at: https://www.cyclestreets.net/api/v2/collisions.location/. 
+(2020, August 29). Bicycles Accident Analysis. Medium. Retrieved February 7, 2023, from https://medium.com/analytics-vidhya/bicycles-accident-analysis-a5d178a1b6f2
+
+(2023). [Cycle Streets Logo] [Photograph]. Cycle Streets. www.cyclestreets.net
+
+Cycle Streets (2020, August 29). Cycle Streets API. Retrieved February 7, 2023, from https://www.cyclestreets.net/api/
+
+Department for Transport (UK Government) (2011, September 1). Cities in United Kingdom. Instructions for the Completion of Road Accident Reports From Non-CRASH Sources. Retrieved February 6, 2023, from https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/995423/stats20-2011.pdf
+
+LatLong.net (2012-2023.). Cities in United Kingdom. Retrieved February 6, 2023, from https://www.latlong.net/category/cities-235-15.htmlImages
+
+National Association Of City Transportation Officials (n.d.). CYCLING NEAR MISSES: Findings from Year One of the Near Miss Project. NACTO. Retrieved February 9, 2023, from https://nacto.org/wp-content/uploads/2017/11/Nearmissreport-final-web-2.pdf
 
 
 - - -
