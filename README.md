@@ -35,7 +35,7 @@ Upon granted request, data was obtained through a valid API key from CycleStreet
 **Central London:** Pulled data and created plots to showcase general cycling collision data. 
 * [Map of all collisions from 1999 to 2021 in Central London](./output_data/images/map1_London_bokeh_plot.png)
 * [Time Series: Number of total casualties from 1999 to 2021](./output_data/images/fig0.1_Casualties_all_years.png)
-* [Frequency of casualties in 2021](./output_data/images/freq_fatal_2021t.png)
+* [Frequency of casualties in 2021](./output_data/images/freq_fatal_2021.png)
 * [Total of each severity type from 1999 to 2021](./output_data/images/total_severity_types.png)
 * [Total casualties by month from 1999 to 2021](./output_data/images/fig3.1_total_casualties_by_month.png)
 * Types of overall casualities
