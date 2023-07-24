@@ -33,35 +33,34 @@ Our aim of this project was ascertain the following questions and made the assoc
 Upon granted request, data was obtained through a valid API key from CycleStreets API (v2), which is a modern JSON interface to the routing engine and other CycleStreets Components. This enabled us to create a script obtaining 28,000+ rows of data. 
 
 **Central London:** Pulled data and created plots to showcase general cycling collision data. 
-* Map of all collisions from 1999 to 2021 in Central London
-* Time Series: Number of total casualties from 1999 to 2021
-* Frequency of casualties in 2021
-* Total of each severity type from 1999 to 2021
-* Total casualties by month from 1999 to 2021
+* [Map of all collisions from 1999 to 2021 in Central London](./output_data/images/map1_London_bokeh_plot.png)
+* [Time Series: Number of total casualties from 1999 to 2021](./output_data/images/fig0.1_Casualties_all_years.png)
+* [Frequency of casualties in 2021](./output_data/images/freq_fatal_2021t.png)
+* [Total of each severity type from 1999 to 2021](./output_data/images/total_severity_types.png)
+* [Total casualties by month from 1999 to 2021](./output_data/images/fig3.1_total_casualties_by_month.png)
 * Types of overall casualities
-* Map of fatal collisions in Central London
+* [Map of fatal collisions in Central London](./output_data/images/map2_London_fatal_bokeh_plot.png)
 
 
 **Fatal Collisions:** Created plots to explore the relationships between fatal cycling collisions and the cyclists, other parties and external conditions.
 
 Cyclist: Sex and age
 
-![Graph ](./output_data/images/fig1.1_casualty_gender_graph.png)
-![Graph ](./output_data/images/fig1.2_age_of_casualty_graph.png)
+![Graph 1](./output_data/images/fig1.1_casualty_gender_graph.png)
+![Graph 2](./output_data/images/fig1.2_age_of_casualty_graph.png)
 
 Other Parties: Sex and age 
 
-![Graph ](./output_data/images/fig2.1_driver_gender_graph.png)
-![Graph ](./output_data/images/fig2.2_age_of_driver_graph.png)
-
+![Graph 3](./output_data/images/fig2.1_driver_gender_graph.png)
+![Graph 4](./output_data/images/fig2.2_age_of_driver_graph.png)
 
 External Conditions: Speed limit, road type, weather condition, light condition, road surface condition
 
-![Graph ](./output_data/images/fig3.2.2_road_type_graph.png)
-![Graph ](./output_data/images/fig3.2.2_road_type_graph.png)
-![Graph ](./output_data/images/fig3.3.1_weather_condition_graph.png)
-![Graph ](./output_data/images/fig3.3.2_light_condition_graph.png)
-![Graph ](./output_data/images/fig3.2.1_road_surface_condition_graph.png)
+![Graph 5](./output_data/images/fig3.3.3_speed_limit_graph.png)
+![Graph 6](./output_data/images/fig3.2.2_road_type_graph.png)
+![Graph 7](./output_data/images/fig3.3.1_weather_condition_graph.png)
+![Graph 8](./output_data/images/fig3.3.2_light_condition_graph.png)
+![Graph 9](./output_data/images/fig3.2.1_road_surface_condition_graph.png)
 
 
 
@@ -81,7 +80,7 @@ Overall, what does the data tell us:
 * Female drivers might be more cautous than their male counterparts 
 
 **External Characteristics:**
-* Most fatalitis take place on a dry surface, in a single carriageway, with clear weather and ample daylight
+* Most fatalitis take place on a dry surface, in a 30 mph single carriageway, with clear weather and ample daylight
 
 
 
