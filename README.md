@@ -1,8 +1,8 @@
-# Project 1 - Cycling: How to Beat Collision Statistics
+# Cycling: How to Beat Collision Statistics
 
 
 
-## Background
+## Introduction
 
 
 The importance of maintaining a healthy lifestyle, both physically and mentally, has been at the forefront for many people. In turn, people have been using cycling as a method of transportation, to not only maintain a healthy lifestyle, but from an economical and environmental perspective as well. There are inherent risks involved with cycling and safety is of utmost concern for cyclists. 
@@ -43,9 +43,25 @@ Upon granted request, data was obtained through a valid API key from CycleStreet
 
 
 **Fatal Collisions:** Created plots to explore the relationships between fatal cycling collisions and the cyclists, other parties and external conditions.
-* Cyclist: Sex and age
-* Other Parties: Sex and age 
-* External Conditions: Speed limit, road type, weather condition, light condition, road surface condition
+
+Cyclist: Sex and age
+
+![Graph ](./output_data/images/fig1.1_casualty_gender_graph.png)
+![Graph ](./output_data/images/fig1.2_age_of_casualty_graph.png)
+
+Other Parties: Sex and age 
+
+![Graph ](./output_data/images/fig2.1_driver_gender_graph.png)
+![Graph ](./output_data/images/fig2.2_age_of_driver_graph.png)
+
+
+External Conditions: Speed limit, road type, weather condition, light condition, road surface condition
+
+![Graph ](./output_data/images/fig3.2.2_road_type_graph.png)
+![Graph ](./output_data/images/fig3.2.2_road_type_graph.png)
+![Graph ](./output_data/images/fig3.3.1_weather_condition_graph.png)
+![Graph ](./output_data/images/fig3.3.2_light_condition_graph.png)
+![Graph ](./output_data/images/fig3.2.1_road_surface_condition_graph.png)
 
 
 
